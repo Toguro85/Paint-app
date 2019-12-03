@@ -1,12 +1,6 @@
-import React from 'react';
+import React from 'react'
 import Paint from './components/Paint'
 
-function App() {
-  return (
-    <div >
-      <Paint />
-          </div>
-  );
+export default function App() {
+  return <Paint />
 }
-
-export default App;
